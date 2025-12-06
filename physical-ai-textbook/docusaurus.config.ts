@@ -1,0 +1,162 @@
+import {themes as prismThemes} from 'prism-react-renderer';
+import type {Config} from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
+
+// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+
+const config: Config = {
+  title: 'Physical AI & Humanoid Robotics Textbook',
+  tagline: 'A comprehensive college-level textbook for Physical AI and Humanoid Robotics',
+  favicon: 'img/favicon.ico',
+
+  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+  future: {
+    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+  },
+
+  // Set the production url of your site here
+  url: 'https://soft-hands.github.io',
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl: '/hackathon-ai-textbook/',
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'AyeshaQadir7', // Usually your GitHub org/user name.
+  projectName: 'physical-ai-humanoid-textbook-hackathon', // Usually your repo name.
+
+  onBrokenLinks: 'throw',
+
+  // Even if you don't use internationalization, you can use this field to set
+  // useful metadata like html lang. For example, if your site is Chinese, you
+  // may want to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+
+  presets: [
+    [
+      'classic',
+      {
+        docs: {
+          sidebarPath: './sidebars.ts',
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/AyeshaQadir7/physical-ai-humanoid-textbook-hackathon/edit/main/physical-ai-textbook/',
+        },
+        blog: {
+          showReadingTime: true,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+          },
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/AyeshaQadir7/physical-ai-humanoid-textbook-hackathon/edit/main/physical-ai-textbook/',
+          // Useful options to enforce blogging best practices
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
+        },
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      } satisfies Preset.Options,
+    ],
+  ],
+
+  themeConfig: {
+    // Replace with your project's social card
+    image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      respectPrefersColorScheme: true,
+    },
+    navbar: {
+      title: 'Physical AI & Humanoid Robotics',
+      logo: {
+        alt: 'Physical AI & Humanoid Robotics Textbook Logo',
+        src: 'img/logo.svg',
+      },
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Textbook',
+        },
+        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://github.com/soft-hands/hackathon-ai-textbook',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Textbook',
+          items: [
+            {
+              label: 'Introduction',
+              to: '/docs/intro',
+            },
+            {
+              label: 'Week 1: Introduction to Physical AI',
+              to: '/docs/week-1',
+            },
+            {
+              label: 'Week 12: Project Development & Capstone',
+              to: '/docs/week-12',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'GitHub Repository',
+              href: 'https://github.com/soft-hands/hackathon-ai-textbook',
+            },
+            {
+              label: 'Issues',
+              href: 'https://github.com/soft-hands/hackathon-ai-textbook/issues',
+            },
+            {
+              label: 'Discussions',
+              href: 'https://github.com/soft-hands/hackathon-ai-textbook/discussions',
+            },
+          ],
+        },
+        {
+          title: 'Resources',
+          items: [
+            {
+              label: 'ROS 2 Documentation',
+              href: 'https://docs.ros.org/',
+            },
+            {
+              label: 'Gazebo Simulation',
+              href: 'https://gazebosim.org/',
+            },
+            {
+              label: 'Unity 3D',
+              href: 'https://unity.com/',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics Textbook. Built with Docusaurus.`,
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+  } satisfies Preset.ThemeConfig,
+};
+
+export default config;
