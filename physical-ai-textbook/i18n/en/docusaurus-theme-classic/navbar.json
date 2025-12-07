@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Physical AI & Humanoid Robotics",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Physical AI & Humanoid Robotics Textbook Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Book": {
+    "message": "Book",
+    "description": "Navbar item with label Book"
+  },
+  "item.label.Learning Outcomes": {
+    "message": "Learning Outcomes",
+    "description": "Navbar item with label Learning Outcomes"
+  },
+  "item.label.Author": {
+    "message": "Author",
+    "description": "Navbar item with label Author"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

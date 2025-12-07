@@ -1,0 +1,70 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Introduction": {
+    "message": "Introduction",
+    "description": "The label for category 'Introduction' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Overview": {
+    "message": "Overview",
+    "description": "The label for category 'Overview' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 1: Introduction to Physical AI and Humanoid Robotics": {
+    "message": "Module 1: Introduction to Physical AI and Humanoid Robotics",
+    "description": "The label for category 'Module 1: Introduction to Physical AI and Humanoid Robotics' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 2: Robot Operating Systems and ROS 2 Fundamentals": {
+    "message": "Module 2: Robot Operating Systems and ROS 2 Fundamentals",
+    "description": "The label for category 'Module 2: Robot Operating Systems and ROS 2 Fundamentals' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 3: Robot Perception and Sensor Integration": {
+    "message": "Module 3: Robot Perception and Sensor Integration",
+    "description": "The label for category 'Module 3: Robot Perception and Sensor Integration' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 4: Robot Simulation with Gazebo": {
+    "message": "Module 4: Robot Simulation with Gazebo",
+    "description": "The label for category 'Module 4: Robot Simulation with Gazebo' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 5: Advanced Control Systems & Trajectory Planning": {
+    "message": "Module 5: Advanced Control Systems & Trajectory Planning",
+    "description": "The label for category 'Module 5: Advanced Control Systems & Trajectory Planning' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 6: Multi-Robot Systems & Coordination": {
+    "message": "Module 6: Multi-Robot Systems & Coordination",
+    "description": "The label for category 'Module 6: Multi-Robot Systems & Coordination' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 7: Machine Learning for Robotics": {
+    "message": "Module 7: Machine Learning for Robotics",
+    "description": "The label for category 'Module 7: Machine Learning for Robotics' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 8: Integration & Deployment": {
+    "message": "Module 8: Integration & Deployment",
+    "description": "The label for category 'Module 8: Integration & Deployment' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 9: Human-Robot Interaction & Social Robotics": {
+    "message": "Module 9: Human-Robot Interaction & Social Robotics",
+    "description": "The label for category 'Module 9: Human-Robot Interaction & Social Robotics' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 10: Advanced Topics in Robot Learning": {
+    "message": "Module 10: Advanced Topics in Robot Learning",
+    "description": "The label for category 'Module 10: Advanced Topics in Robot Learning' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 11: Field Robotics & Real-World Applications": {
+    "message": "Module 11: Field Robotics & Real-World Applications",
+    "description": "The label for category 'Module 11: Field Robotics & Real-World Applications' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 12: Project Development & Capstone": {
+    "message": "Module 12: Project Development & Capstone",
+    "description": "The label for category 'Module 12: Project Development & Capstone' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Hardware & Safety": {
+    "message": "Hardware & Safety",
+    "description": "The label for category 'Hardware & Safety' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Community": {
+    "message": "Community",
+    "description": "The label for category 'Community' in sidebar 'tutorialSidebar'"
+  }
+}

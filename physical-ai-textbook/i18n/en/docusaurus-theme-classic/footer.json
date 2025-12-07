@@ -1,0 +1,54 @@
+{
+  "link.title.Textbook": {
+    "message": "Textbook",
+    "description": "The title of the footer links column with title=Textbook in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.Resources": {
+    "message": "Resources",
+    "description": "The title of the footer links column with title=Resources in the footer"
+  },
+  "link.item.label.Introduction": {
+    "message": "Introduction",
+    "description": "The label of footer link with label=Introduction linking to /docs/intro"
+  },
+  "link.item.label.Learning Outcomes": {
+    "message": "Learning Outcomes",
+    "description": "The label of footer link with label=Learning Outcomes linking to /docs/overview/learning-outcomes"
+  },
+  "link.item.label.Why Physical AI Matters": {
+    "message": "Why Physical AI Matters",
+    "description": "The label of footer link with label=Why Physical AI Matters linking to /docs/overview/why-physical-ai-matters"
+  },
+  "link.item.label.GitHub Repository": {
+    "message": "GitHub Repository",
+    "description": "The label of footer link with label=GitHub Repository linking to https://github.com/AyeshaQadir7/physical-ai-humanoid-textbook-hackathon"
+  },
+  "link.item.label.Issues": {
+    "message": "Issues",
+    "description": "The label of footer link with label=Issues linking to https://github.com/AyeshaQadir7/physical-ai-humanoid-textbook-hackathon/issues"
+  },
+  "link.item.label.Discussions": {
+    "message": "Discussions",
+    "description": "The label of footer link with label=Discussions linking to https://github.com/AyeshaQadir7/physical-ai-humanoid-textbook-hackathon/discussions"
+  },
+  "link.item.label.ROS 2 Documentation": {
+    "message": "ROS 2 Documentation",
+    "description": "The label of footer link with label=ROS 2 Documentation linking to https://docs.ros.org/"
+  },
+  "link.item.label.Gazebo Simulation": {
+    "message": "Gazebo Simulation",
+    "description": "The label of footer link with label=Gazebo Simulation linking to https://gazebosim.org/"
+  },
+  "link.item.label.Unity 3D": {
+    "message": "Unity 3D",
+    "description": "The label of footer link with label=Unity 3D linking to https://unity.com/"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 Physical AI & Humanoid Robotics Textbook. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}
