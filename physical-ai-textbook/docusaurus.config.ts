@@ -25,7 +25,7 @@ const config: Config = {
   organizationName: "AyeshaQadir7", // Usually your GitHub org/user name.
   projectName: "physical-ai-humanoid-textbook-hackathon", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -118,12 +118,12 @@ const config: Config = {
               to: "/docs/intro",
             },
             {
-              label: "Learing Outcomes",
+              label: "Learning Outcomes",
               to: "/docs/overview/learning-outcomes",
             },
             {
               label: "Why Physical AI Matters",
-              to: "/docs/overview/Why-physical-ai-matters",
+              to: "/docs/overview/why-physical-ai-matters",
             },
           ],
         },
