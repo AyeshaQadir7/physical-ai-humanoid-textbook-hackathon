@@ -46,6 +46,18 @@ The textbook content is organized as follows:
 
 The textbook is automatically deployed to GitHub Pages on every push to the master branch. The live site can be accessed at: https://soft-hands.github.io/hackathon-ai-textbook/
 
+Alternatively, you can deploy this Docusaurus project to Vercel by following these steps:
+
+1. Push this repository to GitHub if you haven't already
+2. Go to [Vercel](https://vercel.com) and sign in
+3. Click "New Project" and import your repository
+4. Vercel will automatically detect this is a Docusaurus project
+5. Add the following build settings in your Vercel project:
+   - Build Command: `npm run build`
+   - Output Directory: `build`
+   - Development Command: `npm start`
+6. Deploy your project!
+
 ## Contributing
 
 This textbook is an open-source project. Contributions are welcome! Please see our [contributing guidelines](docs/community/contributing.md) for more information.
