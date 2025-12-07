@@ -1,52 +1,56 @@
-import type {ReactNode} from 'react';
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import type { ReactNode } from "react";
+import clsx from "clsx";
+import Heading from "@theme/Heading";
+import { Bot, BrainCircuit, CircuitBoard } from "lucide-react";
+import styles from "./styles.module.css";
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  icon: React.ComponentType<React.ComponentProps<"svg">>;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Comprehensive Curriculum",
+    icon: BrainCircuit,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        12-week curriculum covering fundamental concepts to advanced topics in
+        Physical AI and Humanoid Robotics, from kinematics and dynamics to
+        machine learning and control systems.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "Hands-on Learning",
+    icon: CircuitBoard,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Practical exercises and projects using simulation environments like
+        Gazebo and real-world platforms to reinforce theoretical concepts with
+        actual implementation.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "Cutting-Edge Topics",
+    icon: Bot,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Explore the latest research in humanoid robotics, including locomotion,
+        manipulation, perception, and human-robot interaction in real-world
+        environments.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, icon: Icon, description }: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <Icon className={styles.featureSvg} strokeWidth={0.75} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
@@ -60,6 +64,16 @@ export default function HomepageFeatures(): ReactNode {
   return (
     <section className={styles.features}>
       <div className="container">
+        <div className="row">
+          <div className="col col--12">
+            <Heading as="h2" className={styles.sectionTitle}>
+              Course Features
+            </Heading>
+            <p className={styles.sectionSubtitle}>
+              What makes this curriculum exceptional:
+            </p>
+          </div>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

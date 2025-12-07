@@ -30,29 +30,30 @@ This textbook is designed to accommodate learners with minimal robotics backgrou
 
 The curriculum is organized into 12 weekly modules, each building upon the previous to create increasingly sophisticated robot capabilities:
 
-1. **Week 1**: Introduction to Physical AI and Humanoid Robotics
-2. **Week 2**: Robot Operating Systems and ROS 2 Fundamentals
-3. **Week 3**: Robot Perception and Sensor Integration
-4. **Week 4**: Robot Simulation with Gazebo
-5. **Week 5**: Motion Planning and Control
-6. **Week 6**: Unity Integration for Advanced Visualization
-7. **Week 7**: NVIDIA Isaac for Accelerated AI Computing
-8. **Week 8**: Vision-Language-Action Systems
-9. **Week 9**: Voice-to-Action Integration
-10. **Week 10**: Hardware-Software Co-Design
-11. **Week 11**: Advanced Control and Learning
-12. **Week 12**: Capstone Autonomous Humanoid Project
+2. **Module 2**: Robot Operating Systems and ROS 2 Fundamentals
+1. **Module 1**: Introduction to Physical AI and Humanoid Robotics
+1. **Module 3**: Robot Perception and Sensor Integration
+1. **Module 4**: Robot Simulation with Gazebo
+1. **Module 5**: Motion Planning and Control
+1. **Module 6**: Unity Integration for Advanced Visualization
+1. **Module 7**: NVIDIA Isaac for Accelerated AI Computing
+1. **Module 8**: Vision-Language-Action Systems
+1. **Module 9**: Voice-to-Action Integration
+1. **Module 10**: Hardware-Software Co-Design
+1. **Module 11**: Advanced Control and Learning
+1. **Module 12**: Capstone Autonomous Humanoid Project
 
 ## Getting Started
 
-Each week includes:
+Each module includes:
+
 - Theoretical foundations with practical applications
 - Step-by-step laboratory exercises
 - Comprehensive assessments
 - Hardware integration guides
 - Safety considerations
 
-Begin with Week 1 to establish the foundational knowledge required for the subsequent modules. Each module is designed to be self-contained while contributing to the larger humanoid robot project.
+Begin with Module 1 to establish the foundational knowledge required for the subsequent modules. Each module is designed to be self-contained while contributing to the larger humanoid robot project.
 
 ## Open Source & Reproducible
 

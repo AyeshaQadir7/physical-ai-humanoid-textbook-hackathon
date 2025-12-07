@@ -6,25 +6,56 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* New color palette: #7030ef, #db1fff, #090820, #ffffff */
+  --ifm-color-primary: #7030ef;
+  --ifm-color-primary-dark: #5a1bc4;
+  --ifm-color-primary-darker: #4d18a7;
+  --ifm-color-primary-darkest: #3d1386;
+  --ifm-color-primary-light: #8a52f3;
+  --ifm-color-primary-lighter: #a479f5;
+  --ifm-color-primary-lightest: #c5a9fa;
+  --ifm-color-secondary: #db1fff;
+  --ifm-color-secondary-dark: #ae19cc;
+  --ifm-color-secondary-darker: #9516b2;
+  --ifm-color-secondary-darkest: #78128f;
+  --ifm-color-secondary-light: #e24cff;
+  --ifm-color-secondary-lighter: #e975ff;
+  --ifm-color-secondary-lightest: #f2a6ff;
+  --ifm-color-background: #ffffff;
+  --ifm-color-foreground: #090820;
+  --ifm-color-text: #090820;
+  --ifm-color-text-light: #2c2b35;
+  --ifm-color-text-lighter: #5d5c6a;
+  --ifm-color-text-lightest: #8e8d9b;
+  --ifm-color-border: #e0e0e0;
+  --ifm-color-border-light: #f0f0f0;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(112, 48, 239, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+[data-theme="dark"] {
+  --ifm-color-primary: #a479f5;
+  --ifm-color-primary-dark: #8a52f3;
+  --ifm-color-primary-darker: #7030ef;
+  --ifm-color-primary-darkest: #5a1bc4;
+  --ifm-color-primary-light: #c5a9fa;
+  --ifm-color-primary-lighter: #d9c9fb;
+  --ifm-color-primary-lightest: #ede8fd;
+  --ifm-color-secondary: #e975ff;
+  --ifm-color-secondary-dark: #db1fff;
+  --ifm-color-secondary-darker: #ae19cc;
+  --ifm-color-secondary-darkest: #9516b2;
+  --ifm-color-secondary-light: #f2a6ff;
+  --ifm-color-secondary-lighter: #f7c9ff;
+  --ifm-color-secondary-lightest: #fae2ff;
+  --ifm-color-background: #090820;
+  --ifm-color-foreground: #ffffff;
+  --ifm-color-text: #ffffff;
+  --ifm-color-text-light: #e0e0e0;
+  --ifm-color-text-lighter: #b8b8b8;
+  --ifm-color-text-lightest: #909090;
+  --ifm-color-border: #333333;
+  --ifm-color-border-light: #222222;
+  --docusaurus-highlighted-code-line-bg: rgba(112, 48, 239, 0.3);
 }

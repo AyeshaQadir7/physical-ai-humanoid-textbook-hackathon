@@ -1,11 +1,39 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 4rem 0;
   width: 100%;
+  background-color: var(--ifm-color-background);
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto 1rem;
+  border-bottom: solid #7030ef 2px;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 0.6rem;
+  color: #7030ef;
+}
+
+.sectionSubtitle {
+  text-align: center;
+  margin-bottom: 3rem;
+  /* color: #090820; */
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 996px) {
+  .features {
+    padding: 2rem 0;
+  }
+
+  .featureSvg {
+    height: 150px;
+    width: 150px;
+  }
 }
