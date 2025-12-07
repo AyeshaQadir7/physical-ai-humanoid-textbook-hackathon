@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "ayesha-abdul-qadir.vercel.app",
+  url: "https://ayesha-abdul-qadir.vercel.app",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/physical-ai-textbook/",
